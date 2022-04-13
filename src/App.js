@@ -4,6 +4,7 @@ import { Home } from "./components/Home";
 import { NavBar } from "./components/NavBar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { SocialMedia } from "./components/SocialMedia";
 import { SoftSkills } from "./components/SoftSkills";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <SoftSkills />
       <Projects />
       <Contact />
+      <SocialMedia />
     </div>
   );
 }
