@@ -11,7 +11,7 @@ export const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-2xl font-bold text-gray-400'>
-                        <p className=''>Hola me llamo Franco, soy de Santiago del Estero, Argentina. Por favor, echa un vistazo.</p>
+                        <p className=''>Hola me llamo Franco, soy de Santiago del Estero, Argentina. Finalice el Bootcamp de Henry, como Web Developer. </p>
                     </div>
                     <div className='text-gray-400'>
                         <p>Me gusta resolver problemas cotidianos, el aprendizaje continuo y como la tecnología avanza
