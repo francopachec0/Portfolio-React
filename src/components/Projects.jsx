@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-50 bg-[#0a1128]"
+      className="w-full h-full lg:h-3/4 md:h-3/4 text-gray-50 bg-[#0a1128]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
