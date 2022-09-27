@@ -7,6 +7,9 @@ import ReactImg from '../assets/react.png';
 import Redux from '../assets/redux.png';
 import GitHub from '../assets/github.png';
 import Git from '../assets/git.png';
+import Tailwind from "../assets/tailwind.png";
+import Styled from "../assets/styled.png";
+import Node from "../assets/node.png";
 
 const Skills = () => {
     return (
@@ -38,6 +41,18 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Redux} alt="HTML icon" />
                     <p className='my-4'>REDUX</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                    <p className='my-4'>NODE JS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
+                    <p className='my-4'>TAILWIND CSS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Styled} alt="Tailwind icon" />
+                    <p className='my-4'>STYLED COMPONENTS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Git} alt="HTML icon" />

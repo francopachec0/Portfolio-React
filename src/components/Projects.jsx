@@ -5,6 +5,7 @@ import Portfolio from "../assets/Captura.PNG";
 import Firebase from "../assets/firebase.PNG";
 import Certificado from "../assets/certificado.png";
 import FP from "../assets/fp1.PNG";
+import PI from '../assets/pi1.PNG'
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ const Projects = () => {
             Proyectos
           </p>
           <p className="py-6">
-            Algunos de mis trabajos recientes, y mi certificado de HENRY.
+            Algunos de mis trabajos recientes, y mi certificado Web Developer en HENRY.
           </p>
         </div>
 
@@ -37,13 +38,49 @@ const Projects = () => {
               <div className="pt-8 text-center">
                 <a
                   href="https://github.com/francopachec0/DELIVERY-APP"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Repositorio
                   </button>
                 </a>
-                <a href="https://fp-delivery-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://fp-delivery-app.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${PI})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                PACHECO Impresiones
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://github.com/francopachec0/WEB-APP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Repositorio
+                  </button>
+                </a>
+                <a
+                  href="https://pacheco-impresiones.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -69,12 +106,12 @@ const Projects = () => {
                 <a
                   href="https://github.com/francopachec0/POKEMON-APP"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Repositorio
                   </button>
                 </a>
-                
               </div>
             </div>
           </div>
@@ -91,12 +128,17 @@ const Projects = () => {
                 <a
                   href="https://github.com/francopachec0/REACT-FIREBASE-GOOGLE"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Repositorio
                   </button>
                 </a>
-                <a href="https://react-firebase-nu.vercel.app" target="_blank">
+                <a
+                  href="https://react-firebase-nu.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -117,6 +159,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/francopachec0/COUNTRIES-APP"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Repositorio
@@ -144,6 +187,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/francopachec0/Portfolio-React"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Repositorio
@@ -171,6 +215,7 @@ const Projects = () => {
                 <a
                   href="https://certificates.soyhenry.com/cert?id=af27fb70-b724-4f24-a748-40e33b890333"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Ver
