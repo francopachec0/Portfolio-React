@@ -11,15 +11,15 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full h-full lg:h-3/4 md:h-3/4 text-gray-50 bg-[#0a1128]"
+      className="w-full h-full lg:h-3/4 md:h-3/4 text-[#ebf2fa] bg-[#0a1128]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-50 border-[#a31621]">
+          <p className="text-4xl font-bold inline border-b-4 text-[#ebf2fa] border-[#0466c8]">
             Proyectos
           </p>
           <p className="py-6">
-            Algunos de mis trabajos recientes, y mi certificado Web Developer en HENRY.
+            Algunos de mis trabajos recientes, y mi certificado Web Developer de HENRY.
           </p>
         </div>
 

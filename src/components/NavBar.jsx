@@ -1,42 +1,42 @@
 import React, { useState } from 'react'
 import Logo from '../assets/logo.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaWhatsappSquare} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {BsFileEarmarkText} from 'react-icons/bs'
 import { Link } from 'react-scroll';
 
 export const NavBar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav)
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a1128] text-gray-50'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a1128] text-[#ebf2fa]'>
             <div className=''>
-                <img src={Logo} alt="Logo Image" style={{width: '160px'}}/>
+                <img src={Logo} alt="Mi Logo" style={{width: '160px'}}/>
             </div>
             {/* menu */}
                 <ul className='hidden md:flex'>
                 <li>
-                    <Link to='home' className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Home
+                    <Link to='home' className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Inicio
                     </Link>
                 </li>
                 <li>
-                    <Link to='about' className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        About Me
+                    <Link to='about' className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Sobre Mí
                     </Link>
                 </li>
                 <li>
-                    <Link to='skills' className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Skills
+                    <Link to='skills' className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Habilidades
                     </Link>
                 </li>
                 <li>
-                    <Link to='projects' className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Projects
+                    <Link to='projects' className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Proyectos
                     </Link>
                 </li>
                 <li>
-                    <Link to='contact' className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Contact
+                    <Link to='contact' className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Contacto
                     </Link>
                 </li>
                 </ul>
@@ -49,28 +49,28 @@ export const NavBar = () => {
             {/* mobile menu */} 
                 <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a1128] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-3xl'>
-                    <Link to='home' onClick={handleClick} className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Home
+                    <Link to='home' onClick={handleClick} className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Inicio
                     </Link>
                 </li>
                 <li className='py-6 text-3xl'>
-                    <Link to='about' onClick={handleClick} className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        About Me
+                    <Link to='about' onClick={handleClick} className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Sobre Mí
                     </Link>
                 </li>
                 <li className='py-6 text-3xl'>
-                    <Link to='skills' onClick={handleClick} className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Skills
+                    <Link to='skills' onClick={handleClick} className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Habilidades
                     </Link>
                 </li>
                 <li className='py-6 text-3xl'>
-                    <Link to='projects' onClick={handleClick} className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Projects
+                    <Link to='projects' onClick={handleClick} className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Proyectos
                     </Link>
                 </li>
                 <li className='py-6 text-3xl'>
-                    <Link to='contact' onClick={handleClick} className='hover:text-[#a31621] duration-200' smooth={true} duration={500}>
-                        Contact
+                    <Link to='contact' onClick={handleClick} className='hover:text-[#0466c8] duration-200' smooth={true} duration={500}>
+                        Contacto
                     </Link>
                 </li>
                 </ul>
@@ -78,22 +78,22 @@ export const NavBar = () => {
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-50' href="https://www.linkedin.com/in/francopachec0/" target='_blank'>
+                        <a className='flex justify-between items-center w-full text-[#ebf2fa] ml-3' href="https://www.linkedin.com/in/francopachec0/" target='_blank' rel='noreferrer'>
                             LinkedIn <FaLinkedin size={30}/>
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#343a40]'>
-                        <a className='flex justify-between items-center w-full text-gray-50' href="https://github.com/francopachec0" target='_blank'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#212529]'>
+                        <a className='flex justify-between items-center w-full text-[#ebf2fa] ml-3' href="https://github.com/francopachec0" target='_blank' rel='noreferrer'>
                             GitHub <FaGithub size={30}/>
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#7f4f24]'>
-                        <a className='flex justify-between items-center w-full text-gray-50' href="https://www.canva.com/design/DAE2vqz32FQ/5HR9WYjtQEXlmjY-kK9fww/view?utm_content=DAE2vqz32FQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target='_blank'>
-                            Resume <BsFillPersonLinesFill size={30}/>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#583101]'>
+                        <a className='flex justify-between items-center w-full text-[#ebf2fa] ml-3' href="https://www.canva.com/design/DAE2vqz32FQ/5HR9WYjtQEXlmjY-kK9fww/view?utm_content=DAE2vqz32FQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target='_blank' rel='noreferrer'>
+                            CV <BsFileEarmarkText size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#058c42]'>
-                        <a className='flex justify-between items-center w-full text-gray-50' href="https://wa.me/+543855374571" target='_blank'>
+                        <a className='flex justify-between items-center w-full text-[#ebf2fa] ml-3' href="https://wa.me/+543855374571" target='_blank' rel='noreferrer'>
                             WhatsApp <FaWhatsappSquare size={30}/>
                         </a>
                     </li>
