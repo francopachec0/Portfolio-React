@@ -10,13 +10,13 @@ export const About = () => {
                     </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-10 px-8'>
-                    <div className='md:text-center md:text-2xl text-xl font-bold'>
+                    <div className='md:text-center md:text-xl text-md font-bold'>
                         <p className='text-[#979DAC]'>🎓 Graduado del Bootcamp de HENRY como Web Developer 💻💛</p>
                         <p className='text-[#ebf2fa]'>🌎 Resido en Santiago del Estero, Argentina y busco empleo remoto</p>
                         <p className='text-[#979DAC]'>💼 Estoy abierto a ofertas laborales y con muchas ganas de seguir capacitandome en este mundo IT</p>
                         <p className='m-4 text-center'>⭐⭐⭐</p>
                     </div>
-                    <div className='md:text-center md:text-2xl text-xl font-bold'>
+                    <div className='md:text-center md:text-xl text-md font-bold'>
                         <p className='text-[#979DAC]'>👨‍💻 Me encuentro conociendo otras tecnologias y realizando mini proyectos de manera auto didacta</p>
                         <p className='text-[#ebf2fa]'>👋🏼 Tengo 22 años, me gusta la programacion y me encanta aprender cosas nuevas!</p>
                     </div>
