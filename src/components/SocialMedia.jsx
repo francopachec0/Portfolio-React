@@ -18,7 +18,7 @@ export const SocialMedia = () => {
                         </a>
                     </li>
                     <li className='w-[140px] h-[30px] flex justify-between items-center mr-[-100px] bg-[#583101]'>
-                        <a className='flex justify-between items-center w-full text-[#ebf2fa]' href="https://www.canva.com/design/DAE2vqz32FQ/5HR9WYjtQEXlmjY-kK9fww/view?utm_content=DAE2vqz32FQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target='_blank' rel='noreferrer'>
+                        <a className='flex justify-between items-center w-full text-[#ebf2fa]' href="https://drive.google.com/file/d/1A02uRhP0v3G23U1rH0Vi23P-FehyZHwh/view?usp=sharing" target='_blank' rel='noreferrer'>
                             <BsFileEarmarkText size={22}/>
                         </a>
                     </li>

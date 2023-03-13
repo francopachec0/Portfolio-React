@@ -88,7 +88,7 @@ export const NavBar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#583101]'>
-                        <a className='flex justify-between items-center w-full text-[#ebf2fa] ml-3' href="https://www.canva.com/design/DAE2vqz32FQ/5HR9WYjtQEXlmjY-kK9fww/view?utm_content=DAE2vqz32FQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target='_blank' rel='noreferrer'>
+                        <a className='flex justify-between items-center w-full text-[#ebf2fa] ml-3' href="https://drive.google.com/file/d/1A02uRhP0v3G23U1rH0Vi23P-FehyZHwh/view?usp=sharing" target='_blank' rel='noreferrer'>
                             CV <BsFileEarmarkText size={30}/>
                         </a>
                     </li>
